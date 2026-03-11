@@ -50,3 +50,18 @@ classDiagram
     libro_texto <|-- libroTextoUniajc
     libro <|-- novela
 ```
+
+## Situaciones de No Herencia 
+
+  - **Private**: Si una clase está declarada con modificador *private* (dentro de otra clase) o no es visible en el paquete, no puede ser extendida fuera de su ámbito.
+
+  - **Tener sentido**: Quiere decir aunque en java se permite hacer cualquier tipo de herencia, no tiene sentido que, por ejemplo, una clase *avion* herede atributos de otra clase llamada *animal*.
+
+*********************************************************************************************
+
+## Posibles cambios al Ejercicio
+
+  - **Atributos**: En la clase libro se pueden agregar atributos como *año de publicacion* y *editorial*
+
+  - **Metodo**: Como un metodo que puede complemetar bastante este codigo podemos incluir la la forma que me muestre la disponibilidad del libro, restando los libros ejemplares que fueron prestados con los ejemplares disponibles.  
+
